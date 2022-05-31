@@ -108,7 +108,7 @@ body {
 }
 
 .form__button:hover {
-    background: var(--color-primary-dark);
+    background-color: ee4b08;
 }
 
 .form__button:active {

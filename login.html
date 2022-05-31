@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Înregistrare!</title>
+    <title>Autentificare!</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
@@ -27,12 +27,18 @@
                 <div class="form__input-error-message"></div>
             </div>
             <button class="form__button" type="submit">Continuă</button>
+            <hr>
+
             <p class="form__text">
-                <a href="#" class="form__link">Ai uitat parola?</a>
+            <a href="register.html">Nu ai cont? Crează cont</a>
             </p>
-            <p class="form__text">
+    
+            <p class="form__text"><a href="forgotpassword.html">Ai uitat parola?</a></p>
+            <p class="form__text"><a href="index.html">Acasă</a></p>
+    
+            <!-- <p class="form__text">
                 <a class="form__link" href="./" id="linkCreateAccount">Nu ai un cont? Crează un cont.</a>
-            </p>
+            </p> -->
         </form>
         <form class="form form--hidden" id="createAccount">
             <h1 class="form__title">Creare Cont</h1>
@@ -53,12 +59,16 @@
                 <input type="password" class="form__input" autofocus placeholder="Confirm password">
                 <div class="form__input-error-message"></div>
             </div>
-            <button class="form__button" type="submit">Continuă</button>
-            <p class="form__text">
-                <a class="form__link" href="./" id="linkLogin">Ai deja un cont? Autentificare </a>
-            </p>
+            <a href="index.html"><button class="form__button" type="submit">Continuă</button></a>
+            <!-- <a href="login.html"> 
+             <button class="btn btn-primary bn-xl">Autentificare</button>
+            </a> -->
+            <!-- <p class="form__text">
+                <a class="form__link" href="register.html" id="linkLogin">Ai deja un cont? Autentificare </a>
+        
+            </p> -->
         </form>
     </div>
-    <script src="./src/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
